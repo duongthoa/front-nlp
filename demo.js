@@ -4,13 +4,40 @@ const url_ananlysis = ""
 
 function getColor(str) {
   switch(str){
+    // case "O":
+    //   color = "#333333";
+    //   break;
+    // case "B-LOC":
+    //   color = "#4285f4";
+    //   break;
+    // case "B-ORG":
+    //   color = "#32CD32";
+    //   break;
+    // case "I-LOC":
+    //   color = "#0000CD";
+    //   break;
+    // case "B-PER":
+    //   color = "#8B0000";
+    //   break;
+    // case "I-PER":
+    //   color = "#CD5C5C";
+    //   break;
+    // case "I-ORG":
+    //   color = "#2E8B57";
+    //   break;
+    // case "B-MISC":
+    //   color = "#FFFF00";
+    //   break;
+    // case "I-MISC":
+    //   color = "#FFA500";
+    //   break;
     case "N":
       color = "red";
       break;
     case "M":
-      color = "blue";
+      color = "#333333";
       break;
-  }
+    }
   return color
 }
 
