@@ -18,12 +18,16 @@
                     Input
                 </div>
                 <div class="text-input">
-                    <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
                     <textarea name="input" class="input" id="input" rows="5" placeholder="Enter text to be analyzed..."></textarea>
-                    <!-- <textarea type="text" class="input"></textarea> -->
                     <span class="focus-input100"></span>
                 </div>
-                
+                <div class="label">
+                    Choose a model:
+                    <select name="model" id="model" class="model">
+                        <option value="Transformer">Transformer</option>
+                        <option value="BERT">BERT</option>
+                    </select>
+                </div>
             </div>
             <button class="btn" id='btn-submit'>ANALYZE</button>
             <button class="btn" id="btn-reset" style="display: none;">
